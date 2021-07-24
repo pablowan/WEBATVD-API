@@ -1,0 +1,37 @@
+[
+    {
+      "id": 11,
+      "name": "Bettencourt Neto",
+      "email": "benteneto@yahoo.com.br",
+      "cidade": "Salinas",
+      "endereço": "Rua dos patos, N°:77, Patolandia"
+    },
+    {
+      "id": 12,
+      "name": "Aurélio de Sousa Jesus Rita",
+      "email": "asoujerita@yahoo.com.br",
+      "cidade": "Campo Grande",
+      "endereço": "Rua dos bobos, N°:0, Bairro das flores"
+    },
+    {
+      "id": 13,
+      "name": "Zequinha O Brabo",
+      "email": "zdezeca@gmail.com",
+      "cidade": "Campo Pequeno",
+      "endereço": "Rua das Aroeiras, N°:99, Centro"
+    },
+    {
+        "id": 33,
+        "name": "Zé Guerra",
+        "email": "josewar@outlook.com",
+        "cidade": "Monte Olimpo",
+        "endereço": "Rua das Pedras, N°:88, Guarujá"
+      },
+      {
+        "id": 43,
+        "name": "Curiango",
+        "email": "curiangopc@outlook.com",
+        "cidade": "Corujas",
+        "endereço": "Rua 32 de dezembro, N°:99, Copacabana"
+      }
+  ]
