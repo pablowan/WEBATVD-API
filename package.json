@@ -1,9 +1,14 @@
+
 {
   "name": "ATVDWEB-API",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "servidor.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    
+    "scripts":{
+      "start": "node servidor.js"  
+      }
   }
 }
