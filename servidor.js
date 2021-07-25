@@ -46,6 +46,6 @@ app.delete("/users/:id", function(req, res) {
   res.json(usersFiltered);
 });
 
-app.listen(8080, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log("Seu servidor se encontra em funcionamento!");
 });
