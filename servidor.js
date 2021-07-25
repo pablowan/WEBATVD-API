@@ -1,3 +1,12 @@
+/*
+Descricao :
+Basicamente o arquivo que vai manipular o "banco de dados" da nossa API, vamos buscar/trablhar com todas as informações contidas no nosso arquivo database.json.
+Utilizando esse arquivo JS podemos realizar operações com esses dados, GET, POST, PUT E DELETE... Essa será nossa página principal, terá todos os imports e comandos necessários para essa integração.
+Aluno : Pablo Junio Souza Santos
+Data :
+25/ 07 / 2021
+*/
+
 const express = require("express");
 const app = express();
 const database = require("./database.json");
@@ -20,7 +29,7 @@ app.get("/users/:id", function(req, res) {
 app.post("/users", function(req, res) {
   const { name, email } = req.body;
 
-  // salvar
+
 
   res.json({ name, email });
 });
