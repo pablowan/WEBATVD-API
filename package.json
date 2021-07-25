@@ -3,8 +3,8 @@
   "name": "ATVDWEB-API",
   "version": "1.0.0",
   "main": "servidor.js",
-  "script":{
-    "start": "node servidor.js"  
+  "scripts":{
+    "start": "node database.json"  
     },
   "license": "MIT",
   "dependencies": {
